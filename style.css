@@ -1,0 +1,418 @@
+body {
+  font-family: "Cairo", sans-serif;
+}
+.container1 {
+  background-color: rgb(245, 220, 188);
+  display: flex;
+  justify-content: center;
+  font-family: "Cairo", sans-serif;
+}
+
+.list-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 4px;
+  width: 90%;
+}
+.btn {
+  background-color: #6a4527;
+  color: white;
+  border-radius: 40px;
+  border: none;
+  height: 40px;
+  width: 130px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.image {
+  width: 70px;
+}
+.list {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.heading {
+  font-family: "Cairo";
+  font-style: normal;
+
+  font-size: 80px;
+  line-height: 100px;
+  color: #6a4527;
+  margin-left: 40px;
+}
+.we {
+  color: #d17c2f;
+  font-weight: 700;
+  font-size: 120px;
+}
+
+.pet {
+  font-weight: 700;
+}
+
+.main-paragraph {
+  font-family: Cairo;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 30px;
+  margin-left: 40px;
+  color: #6a4527;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  height: 94vh;
+}
+
+.div-text {
+  height: 25%;
+}
+
+h1 {
+  text-align: center;
+  color: #6a4527;
+  font-size: 70px;
+}
+
+.imag {
+  width: 850px;
+  height: 700px;
+}
+
+.sect {
+  height: 100vh;
+  background-color: #FAEFEF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  color: #6a4527;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+}
+
+.image1 {
+  width: 220px;
+  height: 220px;
+}
+
+.image2 {
+  width: 200px;
+  height: 220px;
+}
+
+.image3 {
+  width: 230px;
+  height: 220px;
+}
+
+.image4 {
+  width: 200px;
+  height: 220px;
+}
+.lista {
+  text-decoration: none;
+  color: #6a4527;
+}
+.lista:hover{
+  color:#2d1a0b ;
+  font-weight: 600;
+}
+.text-container {
+  justify-content: center;
+}
+
+.big-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 25px;
+  color: #6a4527;
+  width: 80%;
+}
+
+.partner {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Feedback {
+  /*background-color: #FAEFEF;*/
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.sub-feedback {
+  position: relative;
+}
+
+.dots {
+  justify-content: center;
+  text-align: center;
+  width: 88%;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+.h1 {
+  text-align: center;
+  color: #6a4527;
+  font-size: 50px;
+  font-weight: 300px;
+  margin: auto;
+  font-family: cairo;
+}
+.text2 {
+  display: flex;
+  justify-content: center;
+  width: 100;
+  margin: 0 auto;
+  color: #d17c2f;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.img {
+  position: absolute;
+  margin-left: 1000px;
+  height: 390px;
+  width: 450px;
+  margin-top: 270px;
+}
+.title {
+  font-family: cairo;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 55px;
+  color: #d17c2f;
+  text-align: center;
+}
+.text-get-in-touch {
+  font-family: cairo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  /*color: #000000;*/
+  text-align: start;
+}
+.button {
+  font-family: cairo;
+  font-style: normal;
+  background-color: #d17c2f;
+  border-radius: 20px;
+  height: 65px;
+  width: 200px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #d79f6b;
+}
+.one {
+  justify-content: space-between;
+  display: flex;
+}
+.photo {
+  width: 500px;
+  height: 300px;
+  margin-left: 850px;
+  margin-top: -300px;
+  position: absolute;
+}
+.get-in-touch-container {
+ /* background-color: #fceeee;*/
+  height: 100vh;
+}
+
+.get-in-touch {
+  background-color: #FAEFEF;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.main-img {
+  background-color: #FDE6CA;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.allbox {
+  width: 75%;
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.head {
+  font-family: cairo;
+  font-style: normal;
+  text-align: center;
+  color: #6a4527;
+  font-size: 100px;
+}
+.paragraph {
+  font-family: cairo;
+  font-style: normal;
+  color: #6a4527;
+  font-size: 25px;
+  text-align: center;
+  margin-top: -40px;
+}
+.par {
+  color: #d17c2f;
+  font-size: 40px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #de9655;
+  text-align: center;
+  width: 15%;
+  border-radius: 20px 0px;
+}
+
+.img-box {
+  width: 80%;
+  height: 130px;
+}
+
+.description {
+  font-weight: 700;
+}
+
+.button-container {
+  width: 65%;
+}
+
+/* Footer */
+.h2{
+  margin-bottom:50px;
+  color:#6A4527;
+}
+
+.your{
+  color: #D17C2F;
+}
+.contacts-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.contacts-container-div{
+  display: flex;
+  align-items: center;
+}
+.contacts-container-div img{
+  width: 150px;
+}
+.socialMadia{
+  display: flex;
+  justify-content:space-evenly;
+  width: 120%;
+}
+.socialMadia img{
+  width: 40px;
+}
+.Your{
+color: #D17C2F ;
+
+}
+
+.div4{
+  color: #6A4527;
+}
+
+.footer{
+  background-color: #FDE6CA;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footerr-list{
+  margin-top: 130px;
+  height: 300px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #6A4527;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.footer-div{
+  display: flex;
+  color: #6A4527;
+  margin-top: 80px;
+  justify-content: space-between;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.email{
+  height: 40px;
+  width: 50px;
+  margin-left: 50px;
+}
+
+.your-tex{
+font-size: 30px;
+}
+
+.link{
+  color: #6A4527;
+  text-decoration: none;
+}
+.link:hover{
+  color: #422c1a;
+
+}
+
+.ista{
+  height: 35px;
+  width: 30px;
+}
+
+.face{
+  height: 35px;
+  width: 30px;
+}
+
+.twitt{
+  height: 35px;
+  width: 30px;
+}
+
+.pinter{
+  height: 35px;
+  width: 30px;
+}
